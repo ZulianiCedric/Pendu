@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.C2">
+   <children>
+      <ImageView fx:id="Pendu" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="15.0" pickOnBounds="true" />
+      <Button fx:id="A" layoutX="19.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="A" />
+      <Button fx:id="B" layoutX="60.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="B" />
+      <Button fx:id="C" layoutX="101.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="C" />
+      <Button fx:id="D" layoutX="142.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="D" />
+      <Button fx:id="E" layoutX="183.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="E" />
+      <Button fx:id="F" layoutX="224.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="F" />
+      <Button fx:id="G" layoutX="265.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="G" />
+      <Button fx:id="H" layoutX="306.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="H" />
+      <Button fx:id="I" layoutX="347.0" layoutY="275.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="I" />
+      <Button fx:id="J" layoutX="19.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="J" />
+      <Button fx:id="K" layoutX="60.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="K" />
+      <Button fx:id="L" layoutX="101.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="L" />
+      <Button fx:id="M" layoutX="142.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="M" />
+      <Button fx:id="N" layoutX="183.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="N" />
+      <Button fx:id="O" layoutX="223.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="O" />
+      <Button fx:id="P" layoutX="265.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="P" />
+      <Button fx:id="Q" layoutX="306.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="Q" />
+      <Button fx:id="R" layoutX="347.0" layoutY="315.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="R" />
+      <Button fx:id="S" layoutX="40.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="S" />
+      <Button fx:id="T" layoutX="81.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="T" />
+      <Button fx:id="U" layoutX="122.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="U" />
+      <Button fx:id="V" layoutX="163.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="V" />
+      <Button fx:id="W" layoutX="204.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="W" />
+      <Button fx:id="X" layoutX="245.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="X" />
+      <Button fx:id="Y" layoutX="286.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="Y" />
+      <Button fx:id="Z" layoutX="327.0" layoutY="355.0" mnemonicParsing="false" onAction="#Lettre" prefHeight="40.0" prefWidth="40.0" text="Z" />
+      <Label alignment="CENTER" layoutX="3.0" layoutY="235.0" prefHeight="40.0" prefWidth="390.0" text="Donne nous une lettre en effectuant un clique gauche de la souris sur la lettre de votre choix qui n'est pas barré d'une croix" textAlignment="CENTER" wrapText="true" />
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="58.0" layoutY="212.0" prefHeight="26.0" prefWidth="79.0" text="Votre mot :" textAlignment="CENTER" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="263.0" />
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="100.0" layoutY="163.0" prefHeight="38.0" prefWidth="194.0" text="Nombre de fautes restantes : " textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="Error" alignment="CENTER" contentDisplay="TOP" layoutX="116.0" layoutY="189.0" prefHeight="26.0" prefWidth="162.0" text="5/10" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="Mot" contentDisplay="TOP" layoutX="142.0" layoutY="217.0" prefHeight="18.0" prefWidth="211.0" text="_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _" />
+   </children>
+</AnchorPane>
